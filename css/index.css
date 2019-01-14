@@ -611,8 +611,17 @@ footer h6 {
         line-height: 16px;
         
     }
-}
 
+    /* services */
+
+    .main-services .box-services {
+        width: 48%;
+        margin: 10px 0px;
+        line-height: 18px;
+    }
+
+    
+}
 
 @media all and ( max-width: 500px) {
     
@@ -686,6 +695,29 @@ footer h6 {
     footer address {
         padding-left: 20px;
     }
+
+
+       /* services */
+
+    .header-services {
+        margin-top: 420px;
+    }
+
+    .header-services figure figcaption {
+        padding: 20px;
+        line-height: 18px;
+    }
+
+    .main-services .box-services {
+        width: 100%;
+        margin: 10px 0px;
+        line-height: 18px;
+    }
+
+    footer .footer-services section, footer .footer-services aside {
+        width: 100%;
+        padding: 10px;
+    } 
 
 
 }
